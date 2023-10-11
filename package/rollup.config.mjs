@@ -35,7 +35,7 @@ plugins.push(
   copy({
     targets: [
       { src: 'src/index.d.ts', dest: 'dist' },
-      { src: './meta-data.json', dest: 'dist' },
+      { src: '../meta-data.json', dest: 'dist' },
     ],
   }),
 );

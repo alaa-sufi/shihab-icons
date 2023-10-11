@@ -1,15 +1,15 @@
 {
-  "name": "shihab-react-icons",
-  "version": "0.0.16",
+  "name": " ",
+  "version": "0.0.1",
   "description": "Shihab icons for react and figma",
   "author": "Alaa sufi <alaasufi227@gmail.com>",
-  "homepage": "https://github.com/alaa-sufi/react-shihab-icons#readme",
+  "homepage": "https://github.com/alaa-sufi/shihab-icons#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alaa-sufi/react-shihab-icons.git"
+    "url": "git+https://github.com/alaa-sufi/shihab-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/alaa-sufi/react-shihab-icons/issues"
+    "url": "https://github.com/alaa-sufi/shihab-icons/issues"
   },
   "publishConfig": {
     "access": "public"
@@ -61,6 +61,5 @@
   },
   "dependencies": {
     "prop-types": "^15.7.2"
-    
   }
 }

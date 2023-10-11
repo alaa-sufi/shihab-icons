@@ -10,7 +10,7 @@
 <br>
 <br>
 
-> ©️ shihab-icons [github](https://github.com/alaa-sufi/react-shihab-icons) and
+> ©️ shihab-icons [github](https://github.com/alaa-sufi/shihab-icons) and
 > [official website](https://shihab-icons.vercel.app/) (other format and platform available)
 
 ## Installation
@@ -18,9 +18,7 @@
 ### React
 
 ```bash
-yarn add shihab-react-icons
-# or
-npm i shihab-react-icons
+npm i react-shihab-icons
 ```
 
 ````
@@ -29,7 +27,7 @@ npm i shihab-react-icons
 
 ```jsx
 import React from 'react';
-import { Home1Icon } from 'shihab-react-icons';
+import { Home1Icon } from 'react-shihab-icons';
 
 const Example = () => {
   // then use it as a normal React Component
