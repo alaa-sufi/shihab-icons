@@ -103,7 +103,7 @@ export type Icon = FC<IconProps>;
 
 const react = async (icons) => {
   console.log("----- generating icons -> react");
-  const builtSourceDir = path.join("src");
+  const builtSourceDir = path.join("package","src");
   await fs.writeFile(path.join(builtSourceDir, "index.js"), "", "utf-8");
   await fs.writeFile(
     path.join(builtSourceDir, "index.d.ts"),

@@ -19,7 +19,7 @@ const main = async () => {
     console.log(icons);
 
     space();
-      const srPath = path.join(rootDir,  'src');
+      const srPath = path.join(rootDir, 'package', 'src');
 
       // 2. generating meta-data file
       console.log(`----- generating meta-data file ->`);
