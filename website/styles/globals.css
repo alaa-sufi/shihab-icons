@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "lama";
+  src: url("../assets/fonts/ArbFONTS-LamaSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "lama";
+  src: url("../assets/fonts/ArbFONTS-LamaSans-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply text-white bg-black rtl:text-right rtl:[direction:rtl];
+    font-family: 'lama', sans-serif;;
+  }
+  .dir-rtl{
+    direction: rtl;
+  }
+  .dir-ltr{
+    direction: rtl;
+  }
+}
