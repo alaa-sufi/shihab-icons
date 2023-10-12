@@ -19,9 +19,9 @@
 
 ```bash
 npm i react-shihab-icons
+# or
+yarn add react-shihab-icons
 ```
-
-````
 
 ## Usage
 
