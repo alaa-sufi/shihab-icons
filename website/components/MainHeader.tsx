@@ -1,4 +1,4 @@
-import { BackgroundIcons, FigmaIcon, HeartIcon, LogoIcon, ReactIcon } from '@/assets/svg';
+import { BackgroundIcons, FigmaIcon, GitHubIcon, HeartIcon, LogoIcon, ReactIcon } from '@/assets/svg';
 import { Trans, useTranslation } from 'next-i18next';
 import Link from 'next/link';
 import { ArrowDownIcon } from 'react-shihab-icons';
@@ -56,9 +56,12 @@ const OurNames = ({ className }: any) => {
         </div>
       </div>
       <bdi className='flex gap-2 sm:items-center sm:rtl:justify-center flex-col sm:flex-row'>
-        <a className='ltr:order-2' href='https://www.linkedin.com/in/alaasufi00' target='_blank'>
-          {t('programming')}: <span className='before:right-0 before:bg-yellow before:w-full before:bottom-0 before:absolute  before:h-[2px] relative  '>Alaa Sufi</span>
-        </a>
+        <div className='ltr:order-2 d-flex items-center gap-1' >
+          <a href='https://www.linkedin.com/in/alaasufi00' target='_blank'>
+            {t('programming')}: <span className='before:right-0 before:bg-yellow before:w-full before:bottom-0 before:absolute  before:h-[2px] relative  '>Alaa Sufi </span>
+          </a>
+          <a href="https://github.com/alaa-sufi/shihab-icons" target='_blank'><GitHubIcon /></a>
+        </div>
         <span className='w-2 h-2 bg-yellow rounded-full  ltr:order-1 hidden sm:block'></span>
         <a className='ltr:order-0' href='https://www.linkedin.com/in/3be1d' target='_blank'>
           {t('design')}: <span className='before:right-0 before:bg-yellow before:w-full before:bottom-0 before:absolute  before:h-[2px] relative  '>Obeida amin</span>
